@@ -1,0 +1,6 @@
+language = OBJECTIVE-C
+package = platform.Network
+modules = Network
+
+compilerOpts = -framework Network
+linkerOpts = -framework Network
