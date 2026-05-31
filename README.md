@@ -9,14 +9,14 @@ HeyApp is a full-stack inspired KMP client project designed to demonstrate advan
 
 * ✅ **Kotlin Multiplatform (KMP)** – shared business logic across multiple platforms
 * ✅ **Compose Multiplatform UI** – unified declarative UI for Android, Desktop, and iOS
-* ✅ **Clean Modular Architecture** – separation into `core`, `feature`, `data`, `domain`, and `presentation` layers
+* ✅ **Clean Modular Architecture** – separation into `core`, `feature` + `data`, `domain`, and `presentation` layers
 * ✅ **Feature-based Multi-Module Setup** – scalable and maintainable project structure
 * ✅ **Offline-First Repositories** – local-first data synchronization strategy
 * ✅ **WebSocket Real-Time Chat Communication** – instant message delivery and live updates
 * ✅ **Ktor Client Networking** – modern asynchronous networking layer
 * ✅ **Room Database (Multiplatform Setup)** – local persistence with structured relational storage
 * ✅ **Koin Dependency Injection** – lightweight and idiomatic dependency management
-* ✅ **MVVM + Unidirectional State Management** – predictable reactive UI architecture
+* ✅ **MVI + Unidirectional Data Flow** – predictable reactive UI architecture
 * ✅ **StateFlow + Coroutines** – reactive asynchronous state handling
 * ✅ **Adaptive UI Layouts** – responsive interfaces for multiple screen sizes and form factors
 * ✅ **Desktop Window Management & Tray Support** – desktop-specific multiplatform integrations
@@ -34,23 +34,6 @@ HeyApp is a full-stack inspired KMP client project designed to demonstrate advan
 * ✅ **Build Logic Convention Plugins** – centralized Gradle build configuration
 * ✅ **Gradle Version Catalog (`libs.versions.toml`)** – dependency version management
 * ✅ **Adaptive Bottom Sheets & Dialogs** – multiplatform adaptive Compose UI patterns
-* ✅ **Dark Theme Support** – modern theming support
 * ✅ **Cross-Platform Source-Set Organization** – proper KMP source separation
-* ✅ **Desktop Notifications** – native desktop notification support
+* ✅ **Push Notifications** – push notification support
 * ✅ **Process Death & Session Restoration Support** – resilient application state handling
-* ✅ **Scalable Architecture Ready for Backend Integration** – production-oriented project structure
-
----
-
-## 📸 Screenshots
-
-<table>
-  <tr>
-    <td><img src="docs/chat_list.png" width="250"/></td>
-    <td><img src="docs/chat_detail.png" width="250"/></td>
-  </tr>
-  <tr>
-    <td><img src="docs/profile_screen.png" width="250"/></td>
-    <td><img src="docs/desktop_ui.png" width="250"/></td>
-  </tr>
-</table>
