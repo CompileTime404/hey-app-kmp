@@ -3,7 +3,7 @@ import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
 plugins {
     alias(libs.plugins.convention.cmp.application)
-    alias(libs.plugins.compose.hot.reload)
+    // alias(libs.plugins.compose.hot.reload) // Remove or comment out to test
     alias(libs.plugins.google.services)
 }
 

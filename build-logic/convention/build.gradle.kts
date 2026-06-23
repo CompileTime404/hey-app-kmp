@@ -15,6 +15,9 @@ dependencies {
     compileOnly(libs.androidx.room.gradle.plugin)
     implementation(libs.buildkonfig.gradlePlugin)
     implementation(libs.buildkonfig.compiler)
+    
+    // Fix for: The classpath contains no implementation for org.jetbrains.kotlin.buildtools.api.CompilationService
+    runtimeOnly(libs.kotlin.build.tools.impl)
 }
 
 java {
